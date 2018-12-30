@@ -1,0 +1,31 @@
+#nav {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+#nav .navbar-header .navbar-toggle {
+  margin-top: 23px;
+}
+#nav .navbar-header .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-header .navbar-brand i {
+  font-size: 30px;
+}
+#nav .navbar-header .navbar-brand i.icon-icon {
+  color: #e92322;
+}
+#nav .navbar-header .navbar-brand i.icon-logo {
+  color: #000;
+}
+#nav .navbar-collapse .navbar-nav li.active a {
+  border-bottom: 2px solid #e92322;
+  background-color: #fff;
+}
+#nav .navbar-collapse .navbar-nav li a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-collapse .navbar-nav li a:hover {
+  border-bottom: 2px solid #e92322;
+}

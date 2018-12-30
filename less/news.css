@@ -1,0 +1,8 @@
+#news {
+  padding: 40px 0;
+}
+#news .quanbu {
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px dashed;
+}

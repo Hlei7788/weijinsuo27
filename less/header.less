@@ -1,0 +1,32 @@
+// 头部样式
+#header{
+    border-bottom:  1px solid @border-color;
+        .row{
+            line-height: 40px;
+            div{
+                font-size: 12px;
+                &~.col-md-3>a{
+                    margin-left: 10px;
+                    font-size: 14px;
+                    text-decoration: none;
+                }
+                &~div{
+                    border-left: 1px solid @border-color;
+                }
+                a{
+                    color: #666;
+                    img{
+                        display: none;
+                        position: absolute;
+                        top: 40px;
+                        left: 50%;
+                        transform: translate(-50%);
+                        
+                    }
+                    &:hover img{
+                            display: block;
+                    }
+                }
+            }
+        }
+}
